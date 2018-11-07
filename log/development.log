@@ -4807,3 +4807,4 @@ Processing by Admin::StatsController#index as HTML
   [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "authors"[0m
   [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  ORDER BY "posts"."id" DESC LIMIT 1
   Rendered admin/stats/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 253ms (Views: 230.1ms | ActiveRecord: 1.3ms)
