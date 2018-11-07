@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   resources :posts, only: %i[index show new create edit update]
 
-  get '/stats', to: 'stats#index'
+  get '/admin/stats', to: 'stats#index'
 
   root 'posts#index'
 end
