@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   namespace :admin do
     resources :stats, only: %i[index]
   end
-  
+
   # Scope, module tells rails to use /admin as the URL prefix and that all included routes
   # will be handled by controllers in admin
   # scope '/admin', module: 'admin' do
